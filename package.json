@@ -1,0 +1,17 @@
+{
+  "name": "solid",
+  "version": "1.0.0",
+  "description": "SOLID with javascript",
+  "main": "main.js",
+  "repository": "https://github.com/jsi1v4/solid.git",
+  "author": "jsi1v4 <git@jsi1v4.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "S": "node src/single-responsibility/main.js",
+    "O": "node src/open-closed/main.js",
+    "L": "node src/liskov-substitution/main.js",
+    "I": "node src/interface-segregation/main.js",
+    "D": "node src/dependency-inversion/main.js"
+  }
+}
