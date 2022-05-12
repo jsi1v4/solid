@@ -1,4 +1,4 @@
-class PersistenceManager {
+export default class PersistenceManager {
   preprocess(j) {
     //
   }
@@ -15,5 +15,3 @@ class PersistenceManager {
     //
   }
 }
-
-module.exports = PersistenceManager;

@@ -1,4 +1,4 @@
-class Journal {
+export default class Journal {
   constructor() {
     this.count = 0;
     this.entries = {};
@@ -31,5 +31,3 @@ class Journal {
     //
   }
 }
-
-module.exports = Journal;

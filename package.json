@@ -6,6 +6,7 @@
   "repository": "https://github.com/jsi1v4/solid.git",
   "author": "jsi1v4 <git@jsi1v4.com>",
   "license": "MIT",
+  "type": "module",
   "private": false,
   "scripts": {
     "S": "node src/single-responsibility/main.js",

@@ -1,6 +1,6 @@
-// const Journal = require("./wrong/Journal");
-const Journal = require("./correct/Journal");
-const PersistenceManager = require("./correct/PersistenceManager");
+// import Journal from "./wrong/Journal.js";
+import Journal from "./correct/Journal.js";
+import PersistenceManager from "./correct/PersistenceManager.js";
 
 function main() {
   console.log("Single Responsibility Principle");
